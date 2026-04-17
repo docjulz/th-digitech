@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/photography-studio-hire-for-magazine-cover-photoshoot.jpg",
+            "image_overlay_opacity": 30,
+            "heading": "Rent Professional Equipment",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Rent Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-right",
+            "text_alignment": "right",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-3"
+          }
+        },
+        "slide_V7fpDb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/photo-1525199896530-b1d87c75c887.jpg",
+            "image_overlay_opacity": 30,
+            "heading": "Product Photography",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Rent Equipment",
+            "link": "shopify://collections/equipment",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-right",
+            "text_alignment": "right",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-3"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "slide_V7fpDb"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collage_pKDExE": {
+      "type": "collage",
+      "blocks": {
+        "image_jhhynA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photography-at-home-studio-scaled.jpg"
+          }
+        },
+        "product_K68aHz": {
+          "type": "product",
+          "settings": {
+            "product": "softbox-package",
+            "second_image": false
+          }
+        },
+        "collection_99qMze": {
+          "type": "collection",
+          "settings": {
+            "collection": "equipment"
+          }
+        }
+      },
+      "block_order": [
+        "image_jhhynA",
+        "product_K68aHz",
+        "collection_99qMze"
+      ],
+      "settings": {
+        "heading": "Professional Photo Equipment",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured-collection-0": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 4,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_GGe3dM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Kt6hyD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rent Professional Cameras",
+            "heading_size": "h1"
+          }
+        },
+        "text_kr4zKJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you shoot with digital or film, we have all camera types you may need inlcuding DSLR, Full Frame, Retro, and Film</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Gbm4Vi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rent cameras",
+            "button_link": "shopify://collections/cameras",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kt6hyD",
+        "text_kr4zKJ",
+        "button_Gbm4Vi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_7006-scaled.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collage_pKDExE",
+    "featured-collection-0",
+    "image_with_text_GGe3dM"
+  ]
+}
