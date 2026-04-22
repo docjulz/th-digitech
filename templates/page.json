@@ -15,9 +15,20 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "digitech_YdAedj": {
+      "type": "digitech",
+      "name": "DigiTech Feature Card",
+      "settings": {
+        "card_title": "DigiTech",
+        "card_description": "Add a short description about the DigiTech service or product.",
+        "button_label": "Learn More",
+        "button_link": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "digitech_YdAedj"
   ]
 }
