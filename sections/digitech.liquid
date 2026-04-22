@@ -1,0 +1,130 @@
+{% schema %}
+{
+  "name": "DigiTech Feature Card",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "card_image",
+      "label": "Card Image"
+    },
+    {
+      "type": "text",
+      "id": "card_title",
+      "label": "Title",
+      "default": "DigiTech"
+    },
+    {
+      "type": "textarea",
+      "id": "card_description",
+      "label": "Description",
+      "default": "Add a short description about the DigiTech service or product."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "DigiTech Feature Card"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="digitech-card">
+  <div class="digitech-card__inner">
+    
+    <div class="digitech-card__image">
+      {% if section.settings.card_image %}
+        <img 
+          src="https://cdn.shopify.com/s/files/1/0721/7007/8499/files/TH_headshot.webp?v=1776874046" 
+          alt="{{ section.settings.card_title | escape }}"
+          loading="lazy"
+        >
+      {% endif %}
+    </div>
+
+    <div class="digitech-card__content">
+      <h2 class="digitech-card__title">
+        Tim Shits
+      </h2>
+
+      <p class="digitech-card__description">
+        lorem ipsum dolor sit shit fuck cocksuck
+      </p>
+
+      {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+        <a href="{{ section.settings.button_link }}" class="digitech-card__button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
+
+<style>
+.digitech-card {
+  padding: 40px 0;
+}
+
+.digitech-card__inner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.digitech-card__image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.digitech-card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.digitech-card__title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.digitech-card__description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.digitech-card__button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .digitech-card__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .digitech-card__content {
+    align-items: center;
+  }
+}
+</style>
