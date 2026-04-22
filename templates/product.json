@@ -108,6 +108,14 @@
     "image_with_text_9bGdwJ": {
       "type": "image-with-text",
       "blocks": {
+        "caption_c9HNHp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Digitech assigned to project",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_MUrgPC": {
           "type": "heading",
           "settings": {
@@ -132,6 +140,7 @@
         }
       },
       "block_order": [
+        "caption_c9HNHp",
         "heading_MUrgPC",
         "text_tHCiwg",
         "button_33wDUM"
