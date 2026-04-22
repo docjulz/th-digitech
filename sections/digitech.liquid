@@ -44,29 +44,28 @@
   <div class="digitech-card__inner">
     
     <div class="digitech-card__image">
-      {% if section.settings.card_image %}
-        <img 
-          src="https://cdn.shopify.com/s/files/1/0721/7007/8499/files/TH_headshot.webp?v=1776874046" 
+      
+        <img src="{{  digitech.photo | img_url:'500x' }}" 
           alt="{{ section.settings.card_title | escape }}"
           loading="lazy"
         >
-        {% endif %}
+      
     </div>
 
     <div class="digitech-card__content">
       <h2 class="digitech-card__title">
-        Tim Shits
+        {{  digitech.name }}
       </h2>
 
       <p class="digitech-card__description">
-        lorem ipsum dolor sit shit fuck cocksuck
+        {{  digitech.description }}
       </p>
 
-      {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-        <a href="{{ section.settings.button_link }}" class="digitech-card__button">
-          {{ section.settings.button_label }}
+     
+        <a href="{{ digitech.portfolio_link }}" class="digitech-card__button">
+         
         </a>
-      {% endif %}
+   
     </div>
 
   </div>
