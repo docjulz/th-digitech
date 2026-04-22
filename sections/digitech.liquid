@@ -39,6 +39,7 @@
 }
 {% endschema %}
 
+{%for digitech in shop.metaobjets.digitechs.values %}
 <div class="digitech-card">
   <div class="digitech-card__inner">
     
@@ -49,7 +50,7 @@
           alt="{{ section.settings.card_title | escape }}"
           loading="lazy"
         >
-      {% endif %}
+        {% endif %}
     </div>
 
     <div class="digitech-card__content">
@@ -70,6 +71,7 @@
 
   </div>
 </div>
+{% endfor %}
 
 <style>
 .digitech-card {
